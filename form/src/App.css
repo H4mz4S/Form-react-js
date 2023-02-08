@@ -1,0 +1,38 @@
+.row{margin-top: 30px;}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background: #1d2b3a;
+}
+.col-md-6{
+  position: relative;
+  width: 250px;
+}
+.col-md-6 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid  gray;
+  background:#1d2b3a ;
+  border-radius: 5px;
+  outline: none;
+  color: aliceblue;
+  font-size: 1em;
+
+}
+.col-md-5{
+color: rgb(3, 205, 3);
+font-style: italic;
+}
+.col-md-12{
+  color: rgb(3, 205, 3);
+  font-size: x-large;
+  margin-bottom: 50px;
+}
+.a{color:red;
+  text-align: center;
+  padding-left: 80px;
+}
